@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда и обслуживание электровелосипедов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .feature img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .cta {
+            background: #e74c3c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .cta a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            .feature {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>ЭлектроБайк</h1>
+        <p>Аренда и обслуживание электровелосипедов</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#rent">Аренда</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Путешествуйте с комфортом!</h2>
+    </section>
+
+    <!-- Features Section -->
+    <div class="container">
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы предлагаем высококачественные услуги аренды и обслуживания электровелосипедов. Наши байки подходят как для городских прогулок, так и для загородных приключений.</p>
+        </section>
+
+        <section id="services" class="features">
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Аренда">
+                <h3>Аренда</h3>
+                <p>Гибкие условия аренды для всех категорий клиентов.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Обслуживание">
+                <h3>Обслуживание</h3>
+                <p>Профессиональное техническое обслуживание вашего транспорта.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Доставка">
+                <h3>Доставка</h3>
+                <p>Бесплатная доставка по городу при аренде от 3 дней.</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Хотите арендовать электровелосипед?</h2>
+            <a href="#rent">Забронировать сейчас</a>
+        </section>
+
+        <!-- Rent Section -->
+        <section id="rent">
+            <h2>Условия аренды</h2>
+            <ul>
+                <li>Минимальный срок аренды — 1 день.</li>
+                <li>Депозит в размере 5000 рублей.</li>
+                <li>Бесплатная доставка при аренде от 3 дней.</li>
+                <li>Техническая поддержка 24/7.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 (999) 123-45-67</p>
+            <p>Email: info@electrobike.ru</p>
+            <p>Адрес: г. Москва, ул. Центральная, д. 15</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 ЭлектроБайк. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
